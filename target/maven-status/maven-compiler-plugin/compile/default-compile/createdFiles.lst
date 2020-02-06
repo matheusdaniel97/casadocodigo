@@ -1,0 +1,7 @@
+com\matheus\casadocodigo\conf\JPAConfiguration.class
+com\matheus\casadocodigo\daos\ProdutoDAO.class
+com\matheus\casadocodigo\conf\ServletSpringMVC.class
+com\matheus\casadocodigo\controllers\ProdutosController.class
+com\matheus\casadocodigo\controllers\HomeController.class
+com\matheus\casadocodigo\models\Produto.class
+com\matheus\casadocodigo\conf\AppWebConfiguration.class
