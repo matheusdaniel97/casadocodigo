@@ -25,10 +25,10 @@ public class JPAConfiguration {
         factoryBean.setJpaVendorAdapter(vendorAdapter);
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo/useTimezone=true&amp;serverTimezone=UTC");
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 
         factoryBean.setDataSource(dataSource);
 
@@ -39,6 +39,7 @@ public class JPAConfiguration {
         factoryBean.setJpaProperties(prop);
 
         factoryBean.setPackagesToScan("com.matheus.casadocodigo.models");
+
 
         return factoryBean;
 
