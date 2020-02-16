@@ -4,6 +4,7 @@ com\matheus\casadocodigo\conf\ServletSpringMVC.class
 com\matheus\casadocodigo\controllers\ProdutosController.class
 com\matheus\casadocodigo\controllers\HomeController.class
 com\matheus\casadocodigo\models\Preco.class
+com\matheus\casadocodigo\validation\ProdutoValidation.class
 com\matheus\casadocodigo\models\Produto.class
 com\matheus\casadocodigo\conf\AppWebConfiguration.class
 com\matheus\casadocodigo\models\TipoPreco.class

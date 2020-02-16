@@ -1,7 +1,10 @@
 package com.matheus.casadocodigo.models;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.Calendar;
 import java.util.List;
 
 @Entity
@@ -15,8 +18,18 @@ public class Produto {
     private String descricao;
     private int paginas;
 
+    @DateTimeFormat
+    private Calendar dataLancamento;
+
     @ElementCollection
     private List<Preco> precos;
+
+    public Calendar getDataLancamento() {
+        return dataLancamento;
+    }
+    public void setDataLancamento(Calendar dataLancamento) {
+        this.dataLancamento = dataLancamento;
+    }
 
     public String getTitulo() {
         return titulo;

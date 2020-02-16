@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b28396-d89c-4afd-be2f-be481f0fe3a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Preco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/TipoPreco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/validation/ProdutoValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/JPAConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/JPAConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/ServletSpringMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/ServletSpringMVC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casadocodigo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/casadocodigo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/AppWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/AppWebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/ProdutosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/daos/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/daos/ProdutoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/JPAConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/JPAConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/ServletSpringMVC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/ServletSpringMVC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/AppWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/AppWebConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/ProdutosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/ProdutosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/daos/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/daos/ProdutoDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/models/Produto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-02-02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/produtos/lista_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/produtos/lista_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,21 +61,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Dev\Projects\Casadocodigo\casadocodigo\src\main\webapp\WEB-INF\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Dev\Projects\Casadocodigo\casadocodigo\src\main\webapp\WEB-INF\views\produtos" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.matheus.casadocodigo.models" />
       <recent name="com.matheus.casadocodigo.daos" />
       <recent name="com.matheus.casadocodigo.conf" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Projects\Casadocodigo\casadocodigo\src\main\webapp\WEB-INF\views\produtos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\Projects\Casadocodigo\casadocodigo\src\main\webapp\WEB-INF" />
+      <recent name="C:\Dev\Projects\Casadocodigo\casadocodigo\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -130,6 +131,10 @@
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
     <state x="1798" y="-56" key="#Project_Structure/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580697683306" />
+    <state x="1678" y="-131" key="#Properties" timestamp="1581556458703">
+      <screen x="1366" y="-220" width="1440" height="860" />
+    </state>
+    <state x="1678" y="-131" key="#Properties/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581556458703" />
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580768548677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -138,47 +143,59 @@
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state x="1847" y="14" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1580855591252" />
-    <state x="1891" y="-80" key="#com.intellij.ide.util.MemberChooser" timestamp="1581028078321">
+    <state x="1725" y="-102" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1581556556015">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
-    <state x="1891" y="-80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581028078321" />
+    <state x="1725" y="-102" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581556556015" />
+    <state x="1891" y="-80" key="#com.intellij.ide.util.MemberChooser" timestamp="1581627809244">
+      <screen x="1366" y="-220" width="1440" height="860" />
+    </state>
+    <state x="1891" y="-80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581627809244" />
+    <state x="1816" y="-42" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581556934614">
+      <screen x="1366" y="-220" width="1440" height="860" />
+    </state>
+    <state x="1816" y="-42" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581556934614" />
     <state x="1986" y="41" key="FileChooserDialogImpl" timestamp="1580764420981">
       <screen x="1366" y="-220" width="1680" height="1010" />
     </state>
     <state x="1986" y="41" key="FileChooserDialogImpl/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580764420981" />
-    <state width="1397" height="102" key="GridCell.Tab.0.bottom" timestamp="1581304142089">
+    <state width="1397" height="431" key="GridCell.Tab.0.bottom" timestamp="1581635381103">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1580867581415" />
-    <state width="1397" height="102" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581304142089" />
+    <state width="1397" height="431" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581635381103" />
     <state width="1637" height="467" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
-    <state width="1397" height="102" key="GridCell.Tab.0.center" timestamp="1581304142089">
+    <state width="1397" height="431" key="GridCell.Tab.0.center" timestamp="1581635381102">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1580867581415" />
-    <state width="1397" height="102" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581304142089" />
+    <state width="1397" height="431" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581635381102" />
     <state width="1637" height="467" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
-    <state width="1397" height="102" key="GridCell.Tab.0.left" timestamp="1581304142089">
+    <state width="1397" height="431" key="GridCell.Tab.0.left" timestamp="1581635381102">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1580867581415" />
-    <state width="1397" height="102" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581304142089" />
+    <state width="1397" height="431" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581635381102" />
     <state width="1637" height="467" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
-    <state width="1397" height="102" key="GridCell.Tab.0.right" timestamp="1581304142089">
+    <state width="1397" height="431" key="GridCell.Tab.0.right" timestamp="1581635381102">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1580867581415" />
-    <state width="1397" height="102" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581304142089" />
+    <state width="1397" height="431" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581635381102" />
     <state width="1637" height="467" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
+    <state x="1566" y="-215" key="SettingsEditor" timestamp="1581557066649">
+      <screen x="1366" y="-220" width="1440" height="860" />
+    </state>
+    <state x="1566" y="-215" key="SettingsEditor/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581557066649" />
     <state x="1902" y="-11" key="chooseDestDirectoryDialog" timestamp="1580850803077">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state x="1902" y="-11" key="chooseDestDirectoryDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1580850803077" />
-    <state x="1826" y="61" key="com.intellij.ide.util.TipDialog" timestamp="1581302654896">
+    <state x="1826" y="61" key="com.intellij.ide.util.TipDialog" timestamp="1581866539912">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
-    <state x="436" y="238" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1581026881640" />
-    <state x="1826" y="61" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581302654896" />
+    <state x="436" y="238" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1581383637625" />
+    <state x="1826" y="61" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1581866539912" />
     <state x="1902" y="110" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580764406060" />
     <state x="1862" y="123" width="672" height="677" key="run.anything.popup" timestamp="1580767148965">
       <screen x="1366" y="-220" width="1680" height="1010" />
