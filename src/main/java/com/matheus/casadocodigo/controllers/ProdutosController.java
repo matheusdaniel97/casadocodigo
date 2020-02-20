@@ -9,12 +9,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
+import java.io.IOException;
 import java.util.List;
 
 @Controller
@@ -36,16 +39,17 @@ public class ProdutosController {
         return modelAndView;
     }
 
-    @RequestMapping(method = RequestMethod.POST)
-    public ModelAndView gravar(@Valid Produto produto, BindingResult result, RedirectAttributes redirectAttributes){
+    @RequestMapping(method=RequestMethod.POST)
+    public ModelAndView gravar(MultipartFile file, @Valid Produto produto,
+                               BindingResult result, RedirectAttributes redirectAttributes) {
 
-        if(result.hasErrors()){
+        if(result.hasErrors()) {
             return form(produto);
         }
 
         produtoDAO.gravar(produto);
 
-        redirectAttributes.addFlashAttribute("sucesso", "Produto cadastrado com sucesso");
+        redirectAttributes.addFlashAttribute("sucesso", "Produto cadastrado com sucesso!");
 
         return new ModelAndView("redirect:produtos");
     }
@@ -55,6 +59,14 @@ public class ProdutosController {
         List<Produto> produtos = produtoDAO.listar();
         ModelAndView modelAndView = new ModelAndView("produtos/lista");
         modelAndView.addObject("produtos", produtos);
+        return modelAndView;
+    }
+
+    @RequestMapping("/detalhe/{id}")
+    public ModelAndView detalhe(@PathVariable("id") Integer id) {
+        ModelAndView modelAndView = new ModelAndView("produtos/detalhe");
+        Produto produto = produtoDAO.find(id);
+        modelAndView.addObject("produto", produto);
         return modelAndView;
     }
 }

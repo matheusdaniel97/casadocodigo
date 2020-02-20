@@ -6,6 +6,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Objects;
 
 @Entity
 public class Produto {
@@ -23,6 +24,16 @@ public class Produto {
 
     @ElementCollection
     private List<Preco> precos;
+
+    private String sumarioPath;
+
+    public String getSumarioPath() {
+        return sumarioPath;
+    }
+
+    public void setSumarioPath(String sumarioPath) {
+        this.sumarioPath = sumarioPath;
+    }
 
     public Calendar getDataLancamento() {
         return dataLancamento;
@@ -78,5 +89,27 @@ public class Produto {
                 ", descricao='" + descricao + '\'' +
                 ", paginas=" + paginas +
                 '}';
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + id;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Produto other = (Produto) obj;
+        if (id != other.id)
+            return false;
+        return true;
     }
 }
