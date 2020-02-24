@@ -1,9 +1,11 @@
 com\matheus\casadocodigo\conf\JPAConfiguration.class
 com\matheus\casadocodigo\daos\ProdutoDAO.class
+com\matheus\casadocodigo\models\DadosPagamento.class
 com\matheus\casadocodigo\models\CarrinhoItem.class
 com\matheus\casadocodigo\controllers\HomeController.class
 com\matheus\casadocodigo\validation\ProdutoValidation.class
 com\matheus\casadocodigo\models\Produto.class
+com\matheus\casadocodigo\controllers\PagamentoController.class
 com\matheus\casadocodigo\models\CarrinhoCompras.class
 com\matheus\casadocodigo\models\TipoPreco.class
 com\matheus\casadocodigo\conf\ServletSpringMVC.class

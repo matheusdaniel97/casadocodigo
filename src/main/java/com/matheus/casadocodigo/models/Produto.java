@@ -38,6 +38,7 @@ public class Produto {
     public Calendar getDataLancamento() {
         return dataLancamento;
     }
+
     public void setDataLancamento(Calendar dataLancamento) {
         this.dataLancamento = dataLancamento;
     }
@@ -112,4 +113,12 @@ public class Produto {
             return false;
         return true;
     }
+
+    public BigDecimal precoPara(TipoPreco tipoPreco) {
+        return precos.stream()
+                .filter(preco -> preco.getTipo().equals(tipoPreco))
+                .findFirst().get().getValor();
+    }
+
+
 }
