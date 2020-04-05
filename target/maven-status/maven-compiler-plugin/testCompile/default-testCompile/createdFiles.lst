@@ -1,0 +1,4 @@
+com\matheus\casadocodigo\builders\ProdutoBuilder.class
+com\matheus\casadocodigo\conf\DataSourceConfigurationTest.class
+com\matheus\casadocodigo\controllers\ProdutosControllerTest.class
+com\matheus\casadocodigo\daos\ProdutoDAOTest.class

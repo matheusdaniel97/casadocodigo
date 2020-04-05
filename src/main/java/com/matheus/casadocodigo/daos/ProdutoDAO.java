@@ -1,11 +1,14 @@
 package com.matheus.casadocodigo.daos;
 
 import com.matheus.casadocodigo.models.Produto;
+import com.matheus.casadocodigo.models.TipoPreco;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import java.math.BigDecimal;
 import java.util.List;
 
 @Repository
@@ -20,12 +23,20 @@ public class ProdutoDAO {
     }
 
     public List<Produto> listar() {
-        return manager.createQuery("select p from Produto p", Produto.class)
+        return manager.createQuery("select distinct(p) from Produto p join fetch p.precos", Produto.class)
                 .getResultList();
     }
 
     public Produto find(Integer id) {
         return manager.createQuery("select distinct(p) from Produto p " +
                 "join fetch p.precos preco where p.id = :id", Produto.class).setParameter("id", id).getSingleResult();
+    }
+
+    public BigDecimal somaPrecoPorTipo(TipoPreco tipoPreco) {
+        TypedQuery <BigDecimal> query = manager.
+        createQuery("select sum(preco.valor) from Produto p join p.precos preco where preco.tipo = :tipoPreco",
+                BigDecimal.class);
+        query.setParameter("tipoPreco", tipoPreco);
+        return query.getSingleResult();
     }
 }

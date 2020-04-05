@@ -1,11 +1,11 @@
 package com.matheus.casadocodigo.conf;
 
+import org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter;
+import org.springframework.web.context.request.RequestContextListener;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.Filter;
-import javax.servlet.MultipartConfigElement;
-import javax.servlet.ServletRegistration;
+import javax.servlet.*;
 import java.nio.charset.CharacterCodingException;
 
 public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -13,12 +13,12 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return null;
+        return new Class[]{SecurityConfiguration.class, AppWebConfiguration.class, JPAConfiguration.class};
     }
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[] {AppWebConfiguration.class, JPAConfiguration.class};
+        return new Class[] {};
     }
 
     @Override
@@ -30,7 +30,7 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
     protected Filter[] getServletFilters() {
         CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
         characterEncodingFilter.setEncoding("UTF-8");
-        return new Filter[]{characterEncodingFilter};
+        return new Filter[]{characterEncodingFilter, new OpenEntityManagerInViewFilter()};
     }
 
     @Override
@@ -38,4 +38,10 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
         registration.setMultipartConfig(new MultipartConfigElement(""));
     }
 
+    @Override
+    public void onStartup(ServletContext servletContext) throws ServletException {
+        super.onStartup(servletContext);
+        servletContext.addListener(RequestContextListener.class);
+        servletContext.setInitParameter("spring.profiles.active", "dev");
+    }
 }
