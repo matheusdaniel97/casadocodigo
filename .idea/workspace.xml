@@ -2,66 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b28396-d89c-4afd-be2f-be481f0fe3a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/SpringSecurityFilterConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/ExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/daos/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cabecalho.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loginForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rodape.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/matheus/casadocodigo/builders/ProdutoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/matheus/casadocodigo/conf/DataSourceConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/matheus/casadocodigo/controllers/ProdutosControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/matheus/casadocodigo/daos/ProdutoDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1201_jdbc41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/JPAProductionConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casadocodigo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/casadocodigo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/AppWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/AppWebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/JPAConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/JPAConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/ServletSpringMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/conf/ServletSpringMVC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/CarrinhoComprasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/CarrinhoComprasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/PagamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/PagamentoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/controllers/ProdutosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/daos/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/daos/ProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Preco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Preco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/casadocodigo/models/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carrinho/itens.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carrinho/itens.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/detalhe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/detalhe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/AppWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/AppWebConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/JPAConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/JPAConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/ServletSpringMVC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/conf/ServletSpringMVC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/CarrinhoComprasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/CarrinhoComprasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/PagamentoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/PagamentoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/ProdutosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/controllers/ProdutosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/daos/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/daos/ProdutoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/models/Preco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/models/Preco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/casadocodigo/models/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/produtos/form_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/produtos/form_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/produtos/lista_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/produtos/lista_jsp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,10 +141,10 @@
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1580768548677" />
     <state x="1510" y="-196" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586014389772" />
-    <state x="1847" y="14" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585705394180">
+    <state x="1847" y="14" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586114457163">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
-    <state x="1847" y="14" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1585705394180" />
+    <state x="1847" y="14" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586114457163" />
     <state x="341" y="100" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1586082100135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,32 +167,32 @@
     </state>
     <state x="1897" y="2" key="FileChooserDialogImpl/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586014177080" />
     <state x="1986" y="41" key="FileChooserDialogImpl/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580764420981" />
-    <state width="1397" height="2" key="GridCell.Tab.0.bottom" timestamp="1586084852242">
+    <state width="1397" height="2" key="GridCell.Tab.0.bottom" timestamp="1586108250666">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="261" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1586082746562" />
-    <state width="1397" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586084852242" />
+    <state width="1397" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586108250666" />
     <state width="1637" height="467" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
     <state width="1323" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585711638954" />
-    <state width="1397" height="2" key="GridCell.Tab.0.center" timestamp="1586084852242">
+    <state width="1397" height="2" key="GridCell.Tab.0.center" timestamp="1586108250666">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="261" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1586082746562" />
-    <state width="1397" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586084852242" />
+    <state width="1397" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586108250666" />
     <state width="1637" height="467" key="GridCell.Tab.0.center/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
     <state width="1323" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585711638954" />
-    <state width="1397" height="2" key="GridCell.Tab.0.left" timestamp="1586084852241">
+    <state width="1397" height="2" key="GridCell.Tab.0.left" timestamp="1586108250666">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="261" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1586082746561" />
-    <state width="1397" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586084852241" />
+    <state width="1397" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586108250666" />
     <state width="1637" height="467" key="GridCell.Tab.0.left/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
     <state width="1323" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585711638954" />
-    <state width="1397" height="2" key="GridCell.Tab.0.right" timestamp="1586084852242">
+    <state width="1397" height="2" key="GridCell.Tab.0.right" timestamp="1586108250666">
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state width="1323" height="261" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1586082746562" />
-    <state width="1397" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586084852242" />
+    <state width="1397" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586108250666" />
     <state width="1637" height="467" key="GridCell.Tab.0.right/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580699124842" />
     <state width="1323" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585711638954" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1581994891873">
@@ -271,11 +219,11 @@
       <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state x="1902" y="-11" key="chooseDestDirectoryDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1580850803077" />
-    <state x="436" y="238" width="1154" height="574" key="com.intellij.ide.util.TipDialog" timestamp="1585792473288">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1392" y="-194" width="1154" height="574" key="com.intellij.ide.util.TipDialog" timestamp="1586108751801">
+      <screen x="1366" y="-220" width="1440" height="860" />
     </state>
     <state x="436" y="238" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@0.0.1366.728" timestamp="1585792473288" />
-    <state x="1392" y="-194" width="1154" height="574" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1585703830919" />
+    <state x="1392" y="-194" width="1154" height="574" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1440.860@1366.-220.1440.860" timestamp="1586108751801" />
     <state x="1902" y="110" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-220.1680.1010@1366.-220.1680.1010" timestamp="1580764406060" />
     <state x="1816" y="-34" key="extract.method.dialog" timestamp="1586040597912">
       <screen x="1366" y="-220" width="1440" height="860" />

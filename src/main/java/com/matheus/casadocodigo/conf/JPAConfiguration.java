@@ -19,24 +19,21 @@ import java.util.Properties;
 public class JPAConfiguration {
 
     @Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
-
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource, Properties additionalProperties) {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
-
-        factoryBean.setPackagesToScan("com.matheus.casadocodigo.models");
+        factoryBean.setPackagesToScan("br.com.casadocodigo.loja.models");
         factoryBean.setDataSource(dataSource);
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         factoryBean.setJpaVendorAdapter(vendorAdapter);
 
-        Properties prop = additionalProperties();
-        factoryBean.setJpaProperties(prop);
+        factoryBean.setJpaProperties(additionalProperties);
 
         return factoryBean;
-
-
     }
 
+    @Bean
+    @Profile("dev")
     private Properties additionalProperties() {
         Properties prop = new Properties();
         prop.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
